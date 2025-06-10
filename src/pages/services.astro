@@ -1,40 +1,38 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title="Projects">
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Services Header</div>
+<BaseLayout title="Services">
+  <div class="prose max-w-none">
+    <h2>Introduction</h2>
+    <p>
+      With a rich background in strategic leadership, digital transformation and education technology, I offer a range of consulting services aimed at leveraging technology for data-driven solutions. Explore the services offered to accelerate your business growth and digital transition.
+    </p>
+    <h2>Data Science and AI Solutions</h2>
+    <ul>
+      <li>Bayesian Optimization and Hyperparameter Tuning to improve model performance.</li>
+      <li>Predictive Analytics using tree models and KNN approaches.</li>
+      <li>Natural Language Processing solutions such as spam filters.</li>
+    </ul>
+    <h2>Digital Strategy and Transformation</h2>
+    <ul>
+      <li>Consultancy for digital transformation including LMS and data visualisation tools.</li>
+      <li>Digital Education Strategy for educational institutions.</li>
+    </ul>
+    <h2>Business Intelligence and Data Visualization</h2>
+    <ul>
+      <li>Interactive Tableau dashboards for performance tracking.</li>
+      <li>Comprehensive analytics and insights using SQL.</li>
+    </ul>
+    <h2>Training and Professional Development</h2>
+    <ul>
+      <li>Data science training programs for different skill levels.</li>
+      <li>Workshops and seminars on digital tools such as Tableau and Canvas LMS.</li>
+    </ul>
+    <h2>Project Management and Agile Methodologies</h2>
+    <ul>
+      <li>Certified Scrum Master implementing agile principles.</li>
+      <li>Strategic planning and execution of large-scale digital projects.</li>
+    </ul>
   </div>
-
-  <HorizontalCard
-    title="Service 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    badge="NEW"
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
 </BaseLayout>
