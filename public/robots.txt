@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.saqibsafdar.com/sitemap-index.xml
+
